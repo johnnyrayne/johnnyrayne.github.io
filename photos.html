@@ -53,25 +53,159 @@ li a:hover {
 		<li><a href="./">Home</a></li>
 		
 	</ul>
+<style>
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 0px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 20px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 
 <body bgcolor=#F8F8FF text="#575757" link="#999999" vlink="#CCCCCC" alink="#CCCCCC">
-	
-	<div id="imagesMain">	
-		
-				<img src="https://lh3.googleusercontent.com/xE9RA19a35gFdCw5NGnGrVl8I3H1X_WYaI6KI6Bm7_fhlMFZrb4D45roWoxYrzcuYaW6d0BpqI4z8KKPsCkYsnBjVFZF2RDD8Qg6rHqZLndCVp7_E26K-EMpcuABq8qOVF-Qqhb1=w2400" title="Two Lovers" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/QyynCFLcSVsvxJbrfdYe8qEjVWl4hFeabLA4WItC4fwQtxLTJInQekD2jK90FDzgDnceU50NnwRnm0H6EFO3wVNlw1Z8j3oE1OCzwXsb4_qFMqbt45rE3OIxyJWyb9O6Sy8wgs9G=w2400" title="Lavender Field" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/a25YavKgBGrInZcy1w956SMwhPnG-Uq5YwoLM2OQQ9_VS_4DXTvpFWU2XGhYmNKu7q1aQqnhPFiXGOPOivE-ujXZQawqiXlK60kHdTl5JwlADHcRUSG9IyhviscZmP4E_25i-GQD=w2400" title="Bee on Lavender" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/nzMn40-Bn8NvAtrDv6yoaEYVBYnteW6ZIOquxIQn9odRj0nWZBFo9inG2EGMmPj-bRt9WFnOIYmp6L3tUa_doq85k2hWJpGtIYd5QbW3MUO8imOV_dRlfblEq03ZX4kqaUMt-lqN=w2400" title="Bee Near Lavender" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/BCAsitHzw3OQC71gNlspgTzcdTAKgTeUzpcDWwr8qxzbI9_7iaWHjN0elppj1YLnZxZ3upumovmQl6MtEXyPR6DwPvUJ_uEhWdUNPgyh3KgARN4lYV_PFuPsI5_xa9Eb7gOBuAgB=w2400" title="Bee On Flower" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/6Aya_3RC7OtA1xayxTH3CTB9MPXr7S2jbYqD1ocKWMWWHgxvnOiw7eOq6oJwryn2TZ3MdG01wvZa9WI40CKPVSJSQARoXhH9OXcdep4tPg0jSTjUCqdOFNF_9tcfpHf3vz-pS_Vh=w2400" title="Bee Flying From Flower" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/DtlXTy2RFKMA4LPCTvcRvka0y1xlGj6C1CYTJfSbP5ZJN_hDs_nT1zDPdz_SyqEO6XWB61MbWd08CI37nWrUnEZ8Okn0Ub-fZsW_7eySGlXQCNCqUQ4iIC4q5dWInFmvrlJ0VAFW=w2400" title="Fishermen" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/R3RFHAG8sHJVS5zJd-VTQOwTFLERpz9ZiCZwww_r4Ueq8SwIQY5picQezbtUp8s7S6DAwr9ghbZm_BEecfYNYN_z_ZSeD3SZZ4A2fGBdgIXTBsbyIWe8P2zE3fZGt2w8ylhentgm=w2400" title="Train Sign" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/sj7nGsycxGcjNQtDA2n3yNWChCFUFRok0CVNXD1y4U6R4AStl3pETg-ThZZOC_ZzXEtloXrQbsRsMypSlTcmQF2mwcBdJ7J6A002PQ54xR8xVGwI09xKB41m5WYmUHdZnu16GSQh=w2400" title="Makeshift Dock" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/mtH-1fiQa-soD6sZdnfwfTT4Xgbf0b5DcLssW42XwLlTUkNQkqms2ECS7It7me6vdk9jCw4vCzPhtHzh_cXDoiy4Hk2Zlty4PiInvjzHg4p59RB655aVA_JSewE0eDxllAInfLJ1=w2400" title="Railroad Boulders" style="width: 680px;"/>
-				<img src="https://lh3.googleusercontent.com/gmHd7wWbmrqp0RmDqDI7p-4T7KFA7GSd8K3TneovY2Pit8JknbymMRKn8p-JUkl1QSgDCKp2usQDQT6ObWMsOoJUBcwalLFKxUOuchpZ9Dy7or4OiPfsM_carTsO0eRtq2isohxg=w2400" title="Railroad Low View" style="width: 680px;"/>
-				
-		
-	</div>
-        
+<h2 :"absolute">Lavender Acres</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/xE9RA19a35gFdCw5NGnGrVl8I3H1X_WYaI6KI6Bm7_fhlMFZrb4D45roWoxYrzcuYaW6d0BpqI4z8KKPsCkYsnBjVFZF2RDD8Qg6rHqZLndCVp7_E26K-EMpcuABq8qOVF-Qqhb1=w2400">
+      <img src="https://lh3.googleusercontent.com/xE9RA19a35gFdCw5NGnGrVl8I3H1X_WYaI6KI6Bm7_fhlMFZrb4D45roWoxYrzcuYaW6d0BpqI4z8KKPsCkYsnBjVFZF2RDD8Qg6rHqZLndCVp7_E26K-EMpcuABq8qOVF-Qqhb1=w2400" alt="Two Lovers" width="680">
+    </a>
+    <div class="desc">Two Lovers</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/QyynCFLcSVsvxJbrfdYe8qEjVWl4hFeabLA4WItC4fwQtxLTJInQekD2jK90FDzgDnceU50NnwRnm0H6EFO3wVNlw1Z8j3oE1OCzwXsb4_qFMqbt45rE3OIxyJWyb9O6Sy8wgs9G=w2400">
+      <img src="https://lh3.googleusercontent.com/QyynCFLcSVsvxJbrfdYe8qEjVWl4hFeabLA4WItC4fwQtxLTJInQekD2jK90FDzgDnceU50NnwRnm0H6EFO3wVNlw1Z8j3oE1OCzwXsb4_qFMqbt45rE3OIxyJWyb9O6Sy8wgs9G=w2400" alt="Lavender Field" width="680">
+    </a>
+    <div class="desc">Lavender Field</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/a25YavKgBGrInZcy1w956SMwhPnG-Uq5YwoLM2OQQ9_VS_4DXTvpFWU2XGhYmNKu7q1aQqnhPFiXGOPOivE-ujXZQawqiXlK60kHdTl5JwlADHcRUSG9IyhviscZmP4E_25i-GQD=w2400">
+      <img src="https://lh3.googleusercontent.com/a25YavKgBGrInZcy1w956SMwhPnG-Uq5YwoLM2OQQ9_VS_4DXTvpFWU2XGhYmNKu7q1aQqnhPFiXGOPOivE-ujXZQawqiXlK60kHdTl5JwlADHcRUSG9IyhviscZmP4E_25i-GQD=w2400" alt="Bee On Lavender" width="680">
+    </a>
+    <div class="desc">Bee On Lavender</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/nzMn40-Bn8NvAtrDv6yoaEYVBYnteW6ZIOquxIQn9odRj0nWZBFo9inG2EGMmPj-bRt9WFnOIYmp6L3tUa_doq85k2hWJpGtIYd5QbW3MUO8imOV_dRlfblEq03ZX4kqaUMt-lqN=w2400">
+      <img src="https://lh3.googleusercontent.com/nzMn40-Bn8NvAtrDv6yoaEYVBYnteW6ZIOquxIQn9odRj0nWZBFo9inG2EGMmPj-bRt9WFnOIYmp6L3tUa_doq85k2hWJpGtIYd5QbW3MUO8imOV_dRlfblEq03ZX4kqaUMt-lqN=w2400" alt="Bee Near Lavender" width="680">
+    </a>
+    <div class="desc">Bee Near Lavender</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/BCAsitHzw3OQC71gNlspgTzcdTAKgTeUzpcDWwr8qxzbI9_7iaWHjN0elppj1YLnZxZ3upumovmQl6MtEXyPR6DwPvUJ_uEhWdUNPgyh3KgARN4lYV_PFuPsI5_xa9Eb7gOBuAgB=w2400">
+      <img src="https://lh3.googleusercontent.com/BCAsitHzw3OQC71gNlspgTzcdTAKgTeUzpcDWwr8qxzbI9_7iaWHjN0elppj1YLnZxZ3upumovmQl6MtEXyPR6DwPvUJ_uEhWdUNPgyh3KgARN4lYV_PFuPsI5_xa9Eb7gOBuAgB=w2400" alt="Bee On Flower" width="680">
+    </a>
+    <div class="desc">Bee On Flower</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/6Aya_3RC7OtA1xayxTH3CTB9MPXr7S2jbYqD1ocKWMWWHgxvnOiw7eOq6oJwryn2TZ3MdG01wvZa9WI40CKPVSJSQARoXhH9OXcdep4tPg0jSTjUCqdOFNF_9tcfpHf3vz-pS_Vh=w2400">
+      <img src="https://lh3.googleusercontent.com/6Aya_3RC7OtA1xayxTH3CTB9MPXr7S2jbYqD1ocKWMWWHgxvnOiw7eOq6oJwryn2TZ3MdG01wvZa9WI40CKPVSJSQARoXhH9OXcdep4tPg0jSTjUCqdOFNF_9tcfpHf3vz-pS_Vh=w2400" alt="Bee Flying From Flower" width="680">
+    </a>
+    <div class="desc">Bee Flying From Flower</div>
+  </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h2>Connecticut</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/DtlXTy2RFKMA4LPCTvcRvka0y1xlGj6C1CYTJfSbP5ZJN_hDs_nT1zDPdz_SyqEO6XWB61MbWd08CI37nWrUnEZ8Okn0Ub-fZsW_7eySGlXQCNCqUQ4iIC4q5dWInFmvrlJ0VAFW=w2400">
+      <img src="https://lh3.googleusercontent.com/DtlXTy2RFKMA4LPCTvcRvka0y1xlGj6C1CYTJfSbP5ZJN_hDs_nT1zDPdz_SyqEO6XWB61MbWd08CI37nWrUnEZ8Okn0Ub-fZsW_7eySGlXQCNCqUQ4iIC4q5dWInFmvrlJ0VAFW=w2400" alt="Fishermen" width="680">
+    </a>
+    <div class="desc">Fishermen</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/R3RFHAG8sHJVS5zJd-VTQOwTFLERpz9ZiCZwww_r4Ueq8SwIQY5picQezbtUp8s7S6DAwr9ghbZm_BEecfYNYN_z_ZSeD3SZZ4A2fGBdgIXTBsbyIWe8P2zE3fZGt2w8ylhentgm=w2400">
+      <img src="https://lh3.googleusercontent.com/R3RFHAG8sHJVS5zJd-VTQOwTFLERpz9ZiCZwww_r4Ueq8SwIQY5picQezbtUp8s7S6DAwr9ghbZm_BEecfYNYN_z_ZSeD3SZZ4A2fGBdgIXTBsbyIWe8P2zE3fZGt2w8ylhentgm=w2400" alt="Train Sign" width="680">
+    </a>
+    <div class="desc">Train Sign</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/sj7nGsycxGcjNQtDA2n3yNWChCFUFRok0CVNXD1y4U6R4AStl3pETg-ThZZOC_ZzXEtloXrQbsRsMypSlTcmQF2mwcBdJ7J6A002PQ54xR8xVGwI09xKB41m5WYmUHdZnu16GSQh=w2400">
+      <img src="https://lh3.googleusercontent.com/sj7nGsycxGcjNQtDA2n3yNWChCFUFRok0CVNXD1y4U6R4AStl3pETg-ThZZOC_ZzXEtloXrQbsRsMypSlTcmQF2mwcBdJ7J6A002PQ54xR8xVGwI09xKB41m5WYmUHdZnu16GSQh=w2400" alt="Makeshift Dock" width="680">
+    </a>
+    <div class="desc">Makeshift Dock</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/mtH-1fiQa-soD6sZdnfwfTT4Xgbf0b5DcLssW42XwLlTUkNQkqms2ECS7It7me6vdk9jCw4vCzPhtHzh_cXDoiy4Hk2Zlty4PiInvjzHg4p59RB655aVA_JSewE0eDxllAInfLJ1=w2400">
+      <img src="https://lh3.googleusercontent.com/mtH-1fiQa-soD6sZdnfwfTT4Xgbf0b5DcLssW42XwLlTUkNQkqms2ECS7It7me6vdk9jCw4vCzPhtHzh_cXDoiy4Hk2Zlty4PiInvjzHg4p59RB655aVA_JSewE0eDxllAInfLJ1=w2400" alt="Railroad Boulders" width="680">
+    </a>
+    <div class="desc">Railroad Boulders</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://lh3.googleusercontent.com/gmHd7wWbmrqp0RmDqDI7p-4T7KFA7GSd8K3TneovY2Pit8JknbymMRKn8p-JUkl1QSgDCKp2usQDQT6ObWMsOoJUBcwalLFKxUOuchpZ9Dy7or4OiPfsM_carTsO0eRtq2isohxg=w2400">
+      <img src="https://lh3.googleusercontent.com/gmHd7wWbmrqp0RmDqDI7p-4T7KFA7GSd8K3TneovY2Pit8JknbymMRKn8p-JUkl1QSgDCKp2usQDQT6ObWMsOoJUBcwalLFKxUOuchpZ9Dy7or4OiPfsM_carTsO0eRtq2isohxg=w2400" alt="Railroad Low View" width="680">
+    </a>
+    <div class="desc">Railroad Low View</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:10px;">
+
+</div>
+
 </body>
