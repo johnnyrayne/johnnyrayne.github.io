@@ -2,62 +2,86 @@
 <title>Johnny Rayne Photography</title>
 
 <style type="text/css">
-	
-	.active {
-    background-color: #F8F8FF;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-	
-	ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F8F8FF;
+
+.navbar {
+  overflow: hidden;
+  background-color: #F8F8FF;
 }
-li {
-    float: right;
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-li {
-    border-right: 1px solid #bbb;
+
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
-	
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
-li a:hover {
-    background-color: #F2F2F2;
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f8f8f8;
 }
-	
-	div {
-    text-align: justify;
-    text-justify: inter-word;
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #F2F2F2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 </style>
 </head>
-	<ul>
-		<li><a href="mailto:johnnyraynephotography@gmail.com">Contact Me</a></li>
-		<li><a href="https://johnnyrayne.github.io/photos.html">Photos</a></li>
-		<li><a class="active" href="https://johnnyrayne.github.io/about.html">About</a></li>
-		<li><a href="./">Home</a></li>
-		
-</ul>
+<body>
 
-<body bgcolor=#F8F8FF text="#575757" link="#999999" vlink="#CCCCCC" alink="#CCCCCC">
-<font face="Arial, Helvetica"> </font> 
+<div class="navbar">
+  <a href="./">Home</a>
+  <a href="active" href="https://johnnyrayne.github.io/about.html">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Contact Me 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="mailto:johnnyraynephotography@gmail.com">Email</a>
+      <a href="https://www.instagram.com/johnnyraynephotography/">Instagram</a>
     
-       <div style="text-align:center"><FONT face="Arial, Helvetica"><IMG alt="Self Portrait" src="https://lh3.googleusercontent.com/aaQ6-LmmXZwEWNn5RUO5oa-uf4tf5LJLUJE152AeemkuQaFHVcMOra91BhLDMevf3UkBlrqSS_No7fppsls8spZCPFoX2GdEYCHD4RPvM9QVjiw5PuNUxZwltAAMEhsmEP9imNsx=w2400" style="height: 600px;"></FONT>
-       <br><br><br>
-	<FONT face="Verdana, Arial, Helvetica, sans-serif" size=5>About the Photographer:</FONT>
-    	      <FONT size="3" face="Verdana, Arial, Helvetica, sans-serif">
-		<p>
-		This is my amateur photography portfolio.<br>
-		I have been taking photographs for a short time, but only as a hobby. I decided that I should start documenting my efforts and take it more seriously.<br>
-		I have practiced so many different hobbies in my life, but not many have quite struck me as well as photography has.<br>
-		</p>
-		      </div>
-		      <br> 
+   </div>
+  </div> 
+</div>
+ 
 </body>
